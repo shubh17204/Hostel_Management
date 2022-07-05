@@ -1,4 +1,4 @@
-# myhostelapp
+# Hostel App
 
 A new Flutter project.
 
