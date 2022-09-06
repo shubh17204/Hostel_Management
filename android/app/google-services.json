@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1029689813153",
+    "project_id": "hostel-manage-31fb2",
+    "storage_bucket": "hostel-manage-31fb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029689813153:android:9fb7d0bf4906b0817b28e0",
+        "android_client_info": {
+          "package_name": "com.shubh.myhostelapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029689813153-r9h7ehh3gql4f73vgmrs4keuhjv47gf0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbcH-s_Zk9FyAEdujjzu4jiejcOn-ui8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029689813153-r9h7ehh3gql4f73vgmrs4keuhjv47gf0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
