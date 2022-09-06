@@ -17,7 +17,7 @@
         <category android:name="android.intent.category.BROWSABLE" />
         <!-- Accepts URIs that begin with "example://gizmos” -->
         <!-- Registered Callback URLs in TwitterApp -->
-        <data android:scheme="https://hostel-management-system-39162.firebaseapp.com/__/auth/handler" />
+        <data android:scheme="https://hostel-manage-31fb2.firebaseapp.com/__/auth/handler" />
         <!-- host is option -->
       </intent-filter>
       <!-- Deep Links -->
@@ -27,7 +27,7 @@
   <category android:name="android.intent.category.BROWSABLE" />
   <!-- Accepts URIs that begin with YOUR_SCHEME://YOUR_HOST -->
   <data
-    android:scheme="https://hostel-management-system-39162.firebaseapp.com/__/auth/handler" />
+    android:scheme="https://hostel-manage-31fb2.firebaseapp.com/__/auth/handler" />
 </intent-filter>
     </activity>
     <!-- Don't delete the meta-data below.

@@ -1,8 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myhostelapp/pages/hostller_login.dart';
-import 'package:myhostelapp/pages/admin_login.dart';
-import 'package:hexcolor/hexcolor.dart';
-import 'package:myhostelapp/pages/profile_page.dart';
 import 'package:myhostelapp/pages/widget/header_widget.dart';
 import 'package:razorpay_flutter/razorpay_flutter.dart';
 
@@ -137,10 +133,10 @@ class _BillPageState extends State<BillPage> {
                                   ),
                                   onPressed: () {
                                     var options = {
-                                      'key': "rzp_test_oYJFTLQ0iUsiRx",
+                                      'key': "rzp_test_QKWDgh0NSuTIGi",
                                       'amount': feesHostel +
                                           '00', //in the smallest currency sub-unit.
-                                      'name': 'VIT bhopal',
+                                      'name': 'Thapar',
                                       'description': 'Hostel fees',
                                       'timeout': 300, // in seconds
                                       'prefill': {'contact': '', 'email': ''}
@@ -228,10 +224,10 @@ class _BillPageState extends State<BillPage> {
                                   onPressed: () {
                                     //After successful login we will be redirect to profile page.
                                     var options = {
-                                      'key': "rzp_test_oYJFTLQ0iUsiRx",
+                                      'key': "rzp_test_QKWDgh0NSuTIGi",
                                       'amount': feesFine +
                                           '00', //in the smallest currency sub-unit.
-                                      'name': 'VIT bhopal',
+                                      'name': 'Thapar',
                                       'description': 'Hostel fees',
                                       'timeout': 300, // in seconds
                                       'prefill': {'contact': '', 'email': ''}

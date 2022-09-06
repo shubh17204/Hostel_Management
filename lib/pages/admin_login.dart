@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
@@ -11,7 +9,6 @@ import 'package:myhostelapp/pages/admin_profile_page.dart';
 import 'package:myhostelapp/pages/widget/header_widget.dart';
 import 'package:myhostelapp/commom/theme_helper.dart';
 import 'package:myhostelapp/pages/forgot_password_page.dart';
-import 'package:myhostelapp/pages/profile_page.dart';
 import 'package:myhostelapp/pages/registration_page.dart';
 import 'package:provider/provider.dart';
 import '../commom/Socialmedia_button.dart';

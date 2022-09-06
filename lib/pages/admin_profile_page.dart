@@ -4,10 +4,6 @@ import 'package:flutter/services.dart';
 import 'package:myhostelapp/pages/bill_page.dart';
 import 'package:myhostelapp/pages/room_details.dart';
 import 'package:myhostelapp/pages/rule_page.dart';
-import 'forgot_password_page.dart';
-import 'forgot_password_verification_page.dart';
-import 'hostller_login.dart';
-import 'registration_page.dart';
 import 'splash_screen.dart';
 import 'widget/header_widget.dart';
 
@@ -315,7 +311,7 @@ class _AdminProfilePageState extends State<AdminProfilePage> {
                                           leading: Icon(Icons.email),
                                           title: Text("Email"),
                                           subtitle: Text(
-                                              "hostelwarden@vitbhopal.ac.in"),
+                                              "hostelwarden@thapar.edu"),
                                         ),
                                         ListTile(
                                           leading: Icon(Icons.phone),
